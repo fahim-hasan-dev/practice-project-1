@@ -1,0 +1,315 @@
+ 
+@media all and (max-width:1330px) {
+    .fix-width {
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    .banar-botom .content p {
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 30px;
+      }
+      .banar-botom .content h3 {
+        font-size: 35px;
+        font-weight: 400;
+      }
+}
+
+@media all and (max-width:1024px) {
+    .hader-logo span {
+        font-size: 20px;
+        position: relative;
+        top: 8px;
+        
+    }
+    .hader-logo img {
+        height: 50px;
+    }
+    .hader-mnue ul li a {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+    .hader-batton a {
+        padding: 15px 22px;      
+    }
+    .banar {     
+        padding: 200px 0;         
+    }
+    .banar-botom .video {
+        width: 100%;
+        margin-bottom: 30px;
+        padding-right: 0;
+      }
+      .banar-botom .content {
+        width: 100%;
+      }
+      .banar-botom .content p {
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 40px;
+         
+      }
+      .banar-botom .content h3 {
+        font-size: 40px;
+        font-weight: 400;
+      }
+      .services-hading p {
+        font-size: 20px;
+        }
+        .services-hading h1 {
+            font-size: 40px;
+          }
+          .s-box {
+            width: 48%;
+          }
+          .p-s-titale p {
+            font-size: 20px;
+          }
+          .team-mamber {
+            width: 48%;
+            margin-right: 2%;
+            box-sizing: border-box;
+        }
+          
+}
+.hader-mnue span{
+    display: none;
+}
+@media all and (max-width:940px){
+  .p-tabil {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 25px;
+    padding-right: 0;
+}
+.newse {
+  width: 100%;
+  margin-right: 0%;
+}
+.n-titale h3 {
+  margin: 40px 0;
+}
+.n-titale p {
+  margin: 25px 0;
+}
+}
+@media (max-width:939px) and (min-width:786px)  {
+  .t-c-image {
+    display: -webkit-box;
+  }
+  .t-c-i-bio {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+.hader-mnue-checkbox{
+  display: none;
+}
+
+@media all and (max-width:785px) {
+    .hader-logo img {
+        float: inherit;
+    }
+    .hader-logo {
+        width: 100%;
+        text-align: center;
+        padding: 15px 0;
+        padding-bottom: 0;
+    }
+    .hader-logo span {
+        top: -18px;
+    }
+    
+        .hader-mnue span {
+            width: 100%;
+            font-size: 35px;
+            padding: 10px;
+            cursor: pointer;
+            color: #6278df;
+            display: block;
+    }
+    .hader-batton a {
+        position: absolute;
+        right: 10px;
+        bottom: 15px;
+        padding: 15px 30px;
+    }
+    .banar {     
+        padding: 95px 0;         
+    }
+    .banar-contant h1 {
+        font-size: 45px;
+        margin-bottom: 60px;
+        margin-top: 60px;
+    }
+    .banar-contant p {
+        font-size: 22px;
+        margin-top: 50px;
+    }
+    .hader-section {      
+        position: relative; 
+      }
+      .banar {
+        margin-top: 0;
+      }
+      .p-s-titale p {
+        font-size: 18px;
+    }.p-s-titale h3 {
+      margin: 20px 0;
+      font-size: 35px;
+  }
+  .t-s-titale h3 {
+    font-size: 35px;
+}
+.contac-location {
+  width: 100%;
+  margin-right: 0%;
+}
+.contac-info {
+  width: 100%;
+  margin-left: 0%;
+}
+/* dropdown manue */
+
+.hader-mnue ul {
+  opacity: 0;
+  visibility: hidden;
+  height: 0;
+}
+.hader-mnue .hader-mnue-checkbox:checked ~ ul{
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
+.hader-mnue ul li {
+  display: block;
+}
+.hader-mnue ul li ul{
+  left: 180px;
+  top: -140px;
+}
+.hader-mnue ul li ul li{
+  background-color: #fafafa;
+}
+.hader-mnue ul li ul li a{
+  line-height: 2.5rem;
+}
+.hader-mnue-checkbox {
+  width: 50px;
+  height: 20px;
+  opacity: 0;
+  cursor: pointer;
+  display: block;
+}
+.hader-mnue-bars {
+  position: absolute;
+  top: 70px;
+  pointer-events: none;
+}
+}
+@media all and (max-width:768px) {
+    .banar{
+        padding: 95px 0px;
+         
+    }
+    .services-hading p {
+        font-size: 18px;
+        }
+        .services-hading h1 {
+            font-size: 30px;
+          }
+          .t-content {
+            width: 100%;
+            margin-right: 0%;
+            margin-bottom: 20px;
+        }
+        .t-c-i-bio {
+          background: #fff;
+      }
+}
+@media all and (max-width:690px) {
+    .s-box {
+        width: 100%;
+      }
+      .mamber-bio h4 {
+        font-size: 20px;
+    }
+    .mamber-bio p {
+      font-size: 16px;
+  }
+  .comon-input { 
+     width: 100%; 
+    margin-right: 15px;
+    margin-bottom: 25px;
+}
+}
+@media all and (max-width:550px) {
+  .team-mamber {
+    width: 100%;
+    margin-right: 0%;
+}
+}
+
+@media all and (max-width:430px) {
+    .comon-btn {        
+        padding: 15px 20px;       
+        margin-bottom: 15px;
+        display: block;
+      }
+      .banar-contant h1 {
+        font-size: 35px;
+        margin-bottom: 50px;
+        margin-top: 60px;
+      }
+      .banar-botom .content p {
+        line-height: 30px;
+      }
+      .banar-botom .content h3 {
+        font-size: 28px;
+      }
+      .t-s-titale h3 {
+        font-size: 28px;
+    }
+    .n-s-hadding h4 {
+      font-size: 35px;
+  }
+  .n-s-hadding p {
+    font-size: 18px;
+}
+      
+}
+
+
+@media all and (max-width:350px) {
+    .comon-btn {        
+        padding: 15px 20px;       
+        margin-bottom: 15px;
+        display: block;
+      }
+      .banar-contant h1 {
+        font-size: 35px;
+        margin-bottom: 50px;
+        margin-top: 60px;
+      }
+      .p-s-titale p {
+        font-size: 16px;
+    }
+    .p-s-titale h3 {
+      font-size: 25px;
+  }
+  .n-s-hadding h4 {
+    font-size: 30px;
+    margin: 25px 0;
+}
+.t-c-image {
+  display: -webkit-box;
+}
+.t-c-i-bio {
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+}
